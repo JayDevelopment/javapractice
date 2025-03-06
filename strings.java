@@ -18,5 +18,15 @@ public class Main {
         System.out.println(anotherText.contains("vent"));
         // TODO: Replace 'e' with 'a' and print the output
         System.out.println(anotherText.replace("e","a"));
+    //MORE STRING PRACTICE
+        String firstName = "Harry";
+        String lastName = "Grow";
+        String email = "harry.grow@example.com";
+        String username = firstName.toLowerCase() + lastName.toLowerCase();
+        System.out.println("'username' after conversion and concatenation: " + username);
+        email = email.replace("example", "gmail");
+        System.out.println("'email' after replacing example.com with gmail.com: " + email);
+        System.out.println("index of @ in the email address is: " + email.indexOf('@'));
     }
 }
+
